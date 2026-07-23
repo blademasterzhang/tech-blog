@@ -1,0 +1,14 @@
+title: 剑圣软件工作室
+description: 技术博客 - AI Agent, Game Dev, DevOps
+baseurl: "/tech-blog"
+url: "https://blademasterzhang.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
